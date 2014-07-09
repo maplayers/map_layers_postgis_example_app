@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <%= link_to "ApiiSimBackoffice", root_path, :class => "navbar-brand" %>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+    </ul>  
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">List<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><%= link_to "Data1 <span class='badge pull-right'>#{[0,1].size}</span>".html_safe, "#" %></li>
+          <li><%= link_to "Data2 <span class='badge pull-right'>#{[0,1].size}</span>".html_safe, "#" %></li>
+        </ul>
+      </li>
+      <li><a href="#">Link</a></li>
+    </ul>
+    <%= simple_form_for @user, :html => {:class => 'navbar-form navbar-right', :role => 'form' } do |form| %>
+    <%= form.input :stop_name, :placeholder => "Search...", :label => false, input_html: { class: 'form-group' } %>
+    <% end %>
+  </div>
+</div>
