@@ -17,5 +17,4 @@
 //= require OpenLayers
 //= require map_layers
 //= require bootstrap
-//= require bootstrap-datepicker
 //= require_tree .

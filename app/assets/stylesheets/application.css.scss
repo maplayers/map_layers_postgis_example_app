@@ -5,7 +5,7 @@
 @import "bootstrap";
 
 // Bootstrap body padding for fixed navbar
-body { padding-top: 60px; }
+body { padding-top: 50px; }
 
 // And finally bootswatch style itself
 @import "bootswatch/cerulean/bootswatch";
@@ -20,9 +20,8 @@ body { padding-top: 60px; }
 
 // Third-party
 @import "font-awesome";
-@import "bootstrap-datepicker3";
 @import "jquery.ui.all";
 @import "vendor/openlayers";
 
 // Main css
-// @import "global/*";
+@import "global/*";

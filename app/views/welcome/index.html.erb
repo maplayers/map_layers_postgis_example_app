@@ -1,1 +1,4 @@
-Hello guy <%= @user %>!
+<!-- html map container -->
+<%= map_layers_container(@map, :class => 'full_size', :include_loading => true) %>     
+<!-- map_layers js scripts and if necessary its dependencies -->
+<%= map_layers_includes(@map, :onload => true) %>
