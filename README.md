@@ -1,4 +1,6 @@
-rails4_template
-===============
 
-Rails 4 template with bootstrap + simple_form + map_layers + rspec
+map_layers_postgis_example_app
+==============================
+
+Rails application with postgis adapter plugin and map_layers
+
