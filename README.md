@@ -19,6 +19,6 @@ Launch web server
 
 ``` sh
 bundle exec rails s
-``` sh
+```
 
 Go to http://localhost:3000 to see the map
